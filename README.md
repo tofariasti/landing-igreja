@@ -1,4 +1,4 @@
-# Igreja Nova Vida — Comunidade de Fé
+# Nova Vida — Igreja Comunitária
 
 Landing page de alta conversão para igreja fictícia, desenvolvida com foco em responsividade, acessibilidade e integração WhatsApp para agendamento de visitas.
 
@@ -35,15 +35,15 @@ Landing page de alta conversão para igreja fictícia, desenvolvida com foco em 
 
 ## Seções
 
-1. **Hero** — Headline inspiradora, CTAs, estatísticas animadas e imagem impactante
+1. **Hero** — Headline inspiradora, CTAs, estatísticas animadas e imagem de culto
 2. **Sobre** — Missão, visão e valores
-3. **Programação** — Cultos, EBD, células, jovens, kids e ação social
-4. **Ministérios** — Louvor, jovens, infantil, casais, social e intercessão
-5. **Como funciona** — 3 passos: Conheça → Participe → Cresça
-6. **Galeria** — Fotos de cultos e comunidade
-7. **Depoimentos** — 3 testemunhos de membros
+3. **Programação** — Cultos, EBD, células, jovens, kids e oração
+4. **Ministérios** — Louvor, jovens, crianças, ação social, casais e missões
+5. **Como funciona** — 3 passos: conheça, participe, cresça
+6. **Galeria** — Fotos de cultos, comunidade e eventos
+7. **Depoimentos** — 3 testemunhos fictícios
 8. **CTA** — Convite para primeira visita
-9. **FAQ** — Dress code, estacionamento, crianças, células e duração do culto
+9. **FAQ** — Dress code, estacionamento, crianças, células
 10. **Contato** — Formulário WhatsApp para agendamento
 11. **Footer** — Endereço, horários, redes e créditos
 
@@ -61,18 +61,18 @@ Landing page de alta conversão para igreja fictícia, desenvolvida com foco em 
 | Dispositivo | Resolução | Status | Verificado |
 |-------------|-----------|--------|------------|
 | iPhone SE | 375×667 | ✅ | Menu mobile, formulário, float WhatsApp |
-| iPhone 12 Pro | 390×844 | ✅ | Hero, programação, CTA above the fold |
-| iPhone 14 Pro Max | 428×926 | ✅ | Layout mobile amplo, depoimentos |
-| iPad | 768×1024 | ✅ | Grid 2 colunas, FAQ, ministérios |
+| iPhone 12 Pro | 390×844 | ✅ | Hero, CTAs above the fold |
+| iPhone 14 Pro Max | 428×926 | ✅ | Grid programação, depoimentos |
+| iPad | 768×1024 | ✅ | Grid 2 colunas, FAQ, galeria |
 | Desktop HD | 1280×720 | ✅ | Layout completo, moldura preview |
-| Desktop FHD | 1920×1080 | ✅ | Max-width container, galeria 3 colunas |
+| Desktop FHD | 1920×1080 | ✅ | Max-width container, galeria |
 
 ## Acessibilidade
 
 - Semântica HTML5 (`header`, `main`, `footer`, `nav`, landmarks)
 - Skip link para conteúdo principal
 - Atributos ARIA (`aria-expanded`, `aria-label`, `role="alert"` em erros)
-- Contraste WCAG AA (4.5:1) — dourado #c9a84c sobre fundo escuro, texto claro #f5f0e8
+- Contraste WCAG AA — dourado #d4a843 sobre índigo #1a1347 e branco #f8f6f0
 - Navegação por teclado (Escape fecha menu mobile)
 - Focus states visíveis em todos os interativos
 - Alt text descritivo em imagens
@@ -102,7 +102,7 @@ npm run screenshots
 
 1. **WhatsApp:** altere `WHATSAPP_NUMBER` em `site/assets/js/main.js`
 2. **Cores:** edite as variáveis CSS em `:root` no `site/assets/css/style.css`
-3. **Textos e programação:** edite `site/index.html`
+3. **Textos:** edite `site/index.html`
 
 ## Estrutura
 

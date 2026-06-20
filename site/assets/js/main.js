@@ -2,6 +2,7 @@
   'use strict';
 
   var WHATSAPP_NUMBER = '5551998876655';
+  var CHURCH_NAME = 'Igreja Nova Vida';
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -140,7 +141,7 @@
         dataFormatada = dateObj.toLocaleDateString('pt-BR');
       }
 
-      var msg = '*Olá! Quero conhecer a Igreja Nova Vida*\n\n';
+      var msg = '*Olá! Quero conhecer a ' + CHURCH_NAME + '*\n\n';
       msg += '📋 *Meus dados*\n';
       msg += '• Nome: ' + nome + '\n';
       msg += '• Telefone: ' + telefone + '\n';
@@ -195,7 +196,7 @@
       var size = Math.random() * 8 + 4;
       particle.style.cssText =
         'position:absolute;width:' + size + 'px;height:' + size + 'px;' +
-        'background:radial-gradient(circle,rgba(201,168,76,0.45) 0%,transparent 70%);' +
+        'background:radial-gradient(circle,rgba(212,168,67,0.5) 0%,transparent 70%);' +
         'border-radius:50%;left:' + (Math.random() * 100) + '%;top:' + (Math.random() * 100) + '%;' +
         'animation:floatParticle ' + (Math.random() * 20 + 15) + 's ease-in-out ' + (Math.random() * 5) + 's infinite;' +
         'pointer-events:none;';
@@ -332,8 +333,8 @@
     toast.setAttribute('role', 'status');
     toast.innerHTML = '<i class="fas fa-check-circle"></i><span>Mensagem enviada! Aguarde nosso contato.</span>';
     toast.style.cssText =
-      'position:fixed;top:100px;right:2rem;background:linear-gradient(135deg,#c9a84c,#a88832);' +
-      'color:#0f0c28;padding:1rem 1.5rem;border-radius:1rem;box-shadow:0 10px 25px rgba(0,0,0,0.3);' +
+      'position:fixed;top:100px;right:2rem;background:linear-gradient(135deg,#d4a843,#b8922f);' +
+      'color:#1a1347;padding:1rem 1.5rem;border-radius:1rem;box-shadow:0 10px 25px rgba(0,0,0,0.3);' +
       'display:flex;align-items:center;gap:0.75rem;font-weight:600;z-index:10000;';
     document.body.appendChild(toast);
     setTimeout(function () { toast.remove(); }, 3000);
